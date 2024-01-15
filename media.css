@@ -1,0 +1,14 @@
+@media (max-width: 375px) {
+  .card {
+    width: 90vw;
+  }
+  .diamond {
+    width: 90vw;
+  }
+  .card .main-text {
+    font-size: 1rem;
+  }
+  .card .author p {
+    font-size: .8rem;
+  }
+}

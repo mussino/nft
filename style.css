@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.diamond {
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 50px;
+}
+h2 {
+    padding: 0 30px;
+    color: hsl(0, 0%, 100%);
+    opacity: .7;
+}
+.main-text {
+    max-width: 400px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(215, 51%, 70%);
+    opacity: .5;
+}
+.eth-days {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 15px 0;
+    margin: 0 30px;
+    color: hsl(178, 100%, 50%);
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.eth-days img {
+    max-width: 28px;
+    
+}
+.left, .right {
+    display: flex;
+    gap: 10px;
+}
+.eth-days .price {
+    opacity: .65;
+    font-weight: 600;
+}
+
+.eth-days .days {
+    opacity: .6;
+}
+.author {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px 30px 30px;
+}
+.author img {
+    width: 44px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.author p {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    color: hsl(215, 51%, 70%);
+    opacity: .6;
+}
+.author a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    padding: 20px;
+}
+.attribution a {
+    text-decoration: none;
+}
